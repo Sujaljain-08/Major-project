@@ -1,0 +1,5 @@
+.container-fluid{
+    height:64px;
+    display:flex;
+    justify-content: space-evenly   !important;
+}
