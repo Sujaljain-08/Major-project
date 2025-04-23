@@ -1,11 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+<% layout("layout/boilerplate")%>
     <form action="/listing/edit/<%=stay.id%>?_method=PATCH" method="post">
         <h2>Your bnb</h2>
         <input name="title" type="text" value="<%=stay.title%>" required><br><br>
@@ -16,5 +9,3 @@
             <input type="country" name="country" value="<%=stay.country%>"><br><br>
             <button type="submit">Submit</button>
     </form>
-</body>
-</html>
