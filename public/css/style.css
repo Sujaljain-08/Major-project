@@ -1,0 +1,52 @@
+.navbar{
+    height:4rem;
+}
+.material-symbols-outlined{
+    color:#fe424d;
+    font-size:2.5rem !important;
+}
+a.nav-link{
+    color:#222222;
+    font-weight: 400;
+    font-size: large;
+    padding-left: 1.25rem !important;
+}
+.footer-info{
+    height:7rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.privacy-conditions a{
+    text-decoration: none;
+    padding-left: 3rem; 
+}
+
+.social-media-links a{
+    font-size:1.25rem;
+    padding-left:0.75rem;
+}
+.card{
+    height: 25rem ; 
+    border:none !important;
+}
+.card-img-top{
+    height:360px;
+    width:100%;
+    border-radius:1rem;
+    object-fit:cover !important;
+}
+.card-body{
+    padding-left:0px !important;
+}
+
+.col a {
+    text-decoration:none;
+    color:black;
+}
+.card:hover{
+    opacity:0.75;
+}
